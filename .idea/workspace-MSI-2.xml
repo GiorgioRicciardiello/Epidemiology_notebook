@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e54082e7-871f-4a05-ac41-20954b4802d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epi259/src/week_6/randomize_trial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epi259/src/week_6/randomize_trial_three.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epi259/src/week_6/randomize_trial_two.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epi259/src/week_7/hw7.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2VztpbElPlaSi3dwntEoGBHpUAS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/giorg/OneDrive - Fundacion Raices Italo Colombianas/projects/Epidemiology_notebook/epi259/src/mid_term/r_version&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giorg\OneDrive - Fundacion Raices Italo Colombianas\projects\Epidemiology_notebook\epi259\src\mid_term\r_version" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giorg\OneDrive - Fundacion Raices Italo Colombianas\projects\Epidemiology_notebook\epi259\rawdata" />
+      <recent name="C:\Users\giorg\OneDrive - Fundacion Raices Italo Colombianas\projects\Epidemiology_notebook\epi255\data" />
+      <recent name="C:\Users\giorg\OneDrive - Fundacion Raices Italo Colombianas\projects\Epidemiology_notebook\epi255" />
+      <recent name="C:\Users\giorg\OneDrive - Fundacion Raices Italo Colombianas\projects\Epidemiology_notebook\epi259\src\mid_term" />
+      <recent name="C:\Users\giorg\OneDrive - Fundacion Raices Italo Colombianas\projects\Epidemiology_notebook\epi259\src\week_1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Epidemiology_notebook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Epidemiology_notebook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\giorg\OneDrive - Fundacion Raices Italo Colombianas\projects\Epidemiology_notebook\epi259\src\week_1\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e54082e7-871f-4a05-ac41-20954b4802d6" name="Changes" comment="" />
+      <created>1695850920241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695850920241</updated>
+      <workItem from="1695850921384" duration="294000" />
+      <workItem from="1695865163044" duration="44000" />
+      <workItem from="1695866748010" duration="13000" />
+      <workItem from="1695924668492" duration="1168000" />
+      <workItem from="1696184330407" duration="1154000" />
+      <workItem from="1696186446340" duration="2473000" />
+      <workItem from="1696258088709" duration="1504000" />
+      <workItem from="1696289768660" duration="973000" />
+      <workItem from="1696292339493" duration="185000" />
+      <workItem from="1696441336786" duration="1666000" />
+      <workItem from="1696523531557" duration="616000" />
+      <workItem from="1696865808350" duration="5594000" />
+      <workItem from="1696960457225" duration="940000" />
+      <workItem from="1696979208781" duration="23000" />
+      <workItem from="1696979242835" duration="25000" />
+      <workItem from="1697476081409" duration="1438000" />
+      <workItem from="1697489895121" duration="3360000" />
+      <workItem from="1697646824444" duration="595000" />
+      <workItem from="1697649514885" duration="109000" />
+      <workItem from="1697649668857" duration="1219000" />
+      <workItem from="1698017491760" duration="4046000" />
+      <workItem from="1698021586204" duration="28000" />
+      <workItem from="1698021654564" duration="4421000" />
+      <workItem from="1698247625472" duration="1348000" />
+      <workItem from="1698333245921" duration="14000" />
+      <workItem from="1698525314738" duration="24759000" />
+      <workItem from="1698686341020" duration="14073000" />
+      <workItem from="1698874618769" duration="190000" />
+      <workItem from="1698890512067" duration="1010000" />
+      <workItem from="1698939526070" duration="30000" />
+      <workItem from="1699211497295" duration="9424000" />
+      <workItem from="1699288085691" duration="12914000" />
+      <workItem from="1699302510810" duration="1041000" />
+      <workItem from="1699464889014" duration="4380000" />
+      <workItem from="1699832513138" duration="6086000" />
+      <workItem from="1699848100056" duration="1140000" />
+      <workItem from="1699850520399" duration="1886000" />
+      <workItem from="1699898057897" duration="2521000" />
+      <workItem from="1700155917633" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_1/main.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_1/exercies.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_1/homework_1.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_1/homework_1.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_1/week_2.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/src_epi259/week_2/plotting_data.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_4/prob_dist.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi255/src/sample_size_estimation/sample_size_estimatin.py</url>
+          <line>285</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/mid_term/question_3.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_6/randomize_trial_two.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_6/randomize_trial_two.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_6/randomize_trial.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_6/randomize_trial_three.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_6/randomize_trial_three.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_6/randomize_trial_three.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi255/src/compare_measures.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/epi259/src/week_7/hw7.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$sample_size_estimatin.coverage" NAME="sample_size_estimatin Coverage Results" MODIFIED="1698693842897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi255/src/sample_size_estimation" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$week_2.coverage" NAME="week_2 Coverage Results" MODIFIED="1696441621581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_1" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$randomize_trial.coverage" NAME="randomize_trial Coverage Results" MODIFIED="1699302628611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_6" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$hw7.coverage" NAME="hw7 Coverage Results" MODIFIED="1699898421648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_7" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$main.coverage" NAME="main Coverage Results" MODIFIED="1699850567219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$prob_dist.coverage" NAME="prob_dist Coverage Results" MODIFIED="1698082113022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_4" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$homework_1.coverage" NAME="homework_1 Coverage Results" MODIFIED="1696290265787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_1" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$plotting_data.coverage" NAME="plotting_data Coverage Results" MODIFIED="1696866214366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/src_epi259/week_2" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$question_3.coverage" NAME="question_3 Coverage Results" MODIFIED="1698769102539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/mid_term" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$randomize_trial_three.coverage" NAME="randomize_trial_three Coverage Results" MODIFIED="1699302938508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_6" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$question_2.coverage" NAME="question_2 Coverage Results" MODIFIED="1698244001392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/mid_term" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$exercies.coverage" NAME="exercies Coverage Results" MODIFIED="1695924720200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_1" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$compare_measures.coverage" NAME="compare_measures Coverage Results" MODIFIED="1699850573297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi255/src" />
+    <SUITE FILE_PATH="coverage/Epidemiology_notebook$randomize_trial_two.coverage" NAME="randomize_trial_two Coverage Results" MODIFIED="1699295906779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/epi259/src/week_6" />
+  </component>
+</project>
