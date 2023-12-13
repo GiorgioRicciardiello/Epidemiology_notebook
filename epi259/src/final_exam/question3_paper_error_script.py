@@ -14,19 +14,16 @@ def pooled_std(n1, s1, n2, s2):
 n1 = 10
 baseline_pg_measure_mean = 24.9
 baseline_pg_measure_std = 1.1
-baseline_pg_measure_se = baseline_pg_measure_std / np.sqrt(n1)
 last_pg_measure_mean = 29.4
 last_pg_measure_std = 1.0
-last_pg_measure_se = last_pg_measure_std / np.sqrt(n1)
+
 
 # Get the baseline and last CG measure
 n2 = 10
 baseline_cg_measure_mean = 27.1
 baseline_cg_measure_std = 1.0
-baseline_cg_measure_se = baseline_cg_measure_std / np.sqrt(n2)
 last_cg_measure_mean = 25.2
 last_cg_measure_std = 0.8
-last_cg_measure_se = last_cg_measure_std / np.sqrt(n2)
 
 # poold standard deviation from last observation in pg and cg group
 std_pooled = pooled_std(

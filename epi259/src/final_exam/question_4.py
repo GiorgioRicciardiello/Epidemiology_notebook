@@ -8,7 +8,6 @@ if __name__ == '__main__':
     # Generate social isolation scores
     social = np.linspace(-3, 3, 100)
 
-
     # Given points for high complexity line
     x1_high, y1_high = -2, -0.08
     x2_high, y2_high = 2, 0.08
@@ -32,7 +31,7 @@ if __name__ == '__main__':
     plt.grid()
     plt.show()
 
-    # Create a DataFrame with predictors
+    # Create a DataFrame with predictors, social and the response of each is known
     data = pd.DataFrame({
         'High_Low_Complexity': [1] * len(social) + [0] * len(social),
         'Social_Isolation_Score': np.concatenate([social, social]),
@@ -43,82 +42,60 @@ if __name__ == '__main__':
     data['InteractionTerm'] = data['High_Low_Complexity'] * data['Social_Isolation_Score']
 
     # Fit multiple linear regression model with the interaction term
-    X = sm.add_constant(data[['High_Low_Complexity', 'Social_Isolation_Score', 'InteractionTerm']])
+    X = data[['High_Low_Complexity', 'Social_Isolation_Score', 'InteractionTerm']]
+    # X = sm.add_constant(X)  # add a constant term, but the intercept is zero, so we did not add it
+    # we want to fit the model to generate the cognitive change score
     y = data['Cognitive_Change_Score']
+
     model = sm.OLS(y, X).fit()
     print(model.summary())
+
     with open('../../output/question_4_ols.tex', 'w') as f:
         f.write(model.summary().as_latex())
 
-    # Create a DataFrame with predictors for predictions
+    # observed data, predict
     observed_data = pd.DataFrame({
         'High_Low_Complexity': [1] * len(social) + [0] * len(social),
         'Social_Isolation_Score': np.concatenate([social, social])
     })
     # Add the interaction term for predictions
     observed_data['InteractionTerm'] = observed_data['High_Low_Complexity'] * observed_data['Social_Isolation_Score']
-    # Add a constant term for predictions
-    observed_data = sm.add_constant(observed_data)
 
-    # Use the fitted model to predict 'Cognitive_Change_Score' for observed_data
-    predicted_values = model.predict(observed_data)
+    # observed_data_high_complex
+    observed_data_high_complex = observed_data.loc[observed_data['High_Low_Complexity'] == 1, :]
+    # observed_data = sm.add_constant(observed_data)
+    pred_high_complex = model.predict(observed_data_high_complex)
 
-
-    plt.plot(social, y_hih_c, label='y_high_c')
-    plt.plot(observed_data.Social_Isolation_Score, predicted_values,
-             label='Linear Regression Model', )
+    # plt.plot(social, y_hih_c, label='y_high_c')
+    plt.plot(observed_data_high_complex.Social_Isolation_Score, pred_high_complex, label='pred_high_complex', )
     plt.plot(social, y_low_c, label='y_low_c', linestyle='--')
     plt.xlabel('Social Isolation Score')
     plt.ylabel('Cognitive Change Score')
-    plt.title('Predicted Linear Regression Line')
+    plt.title('Linear Regression with Complexity = 1')
     plt.legend()
     plt.grid()
     plt.show()
 
+    # observed_data_low_complex
+    observed_data_low_complex = observed_data.loc[observed_data['High_Low_Complexity'] == 0, :]
+    # observed_data = sm.add_constant(observed_data)
+    pred_low_complex = model.predict(observed_data_low_complex)
+    plt.plot(observed_data_low_complex.Social_Isolation_Score, pred_low_complex,
+             label='pred_low_complex', )
+    # plt.plot(social, y_low_c, label='pred_low_complex', linestyle='--')
+    plt.xlabel('Social Isolation Score')
+    plt.ylabel('Cognitive Change Score')
+    plt.title('Linear Regression with Complexity = 0')
+    plt.legend()
+    plt.grid()
+    plt.show()
 
-
-    #%%
-    # Create a DataFrame with predictors
-    data = pd.DataFrame({
-        'High_Low_Complexity': [1] * len(social) + [0] * len(social),
-        'Social_Isolation_Score': np.concatenate([social, social]),
-        'Cognitive_Change_Score': np.concatenate([y_hih_c, y_low_c])
-    })
-
-    # Add interaction term
-    data['InteractionTerm'] = data['High_Low_Complexity'] * data['Social_Isolation_Score']
-
-    # Fit multiple linear regression model with the interaction term
-    X = sm.add_constant(data[['High_Low_Complexity', 'Social_Isolation_Score', 'InteractionTerm']])
-    y = data['Cognitive_Change_Score']
-    model = sm.OLS(y, X).fit()
-    print(model.summary())
-
-    # Make predictions for both High and Low Complexity
-    observed_data = pd.DataFrame({
-        'High_Low_Complexity': [1] * len(social) + [0] * len(social),
-        'Social_Isolation_Score': np.concatenate([social, social])
-    })
-
-    # # Make predictions for both High and Low Complexity
-    # observed_data = pd.DataFrame({
-    #     'High_Low_Complexity': [1] * len(social),
-    #     'Social_Isolation_Score': social
-    # })
-
-
-    # Add the interaction term for predictions
-    observed_data['InteractionTerm'] = observed_data['High_Low_Complexity'] * observed_data['Social_Isolation_Score']
-
-    # Add a constant term for predictions
-    observed_data = sm.add_constant(observed_data)
-
-    # Use the fitted model to predict 'Cognitive_Change_Score' for observed_data
-    predicted_values = model.predict(observed_data)
-
-    # plt.plot(social, y_hih_c, label='Original High Complexity Line')
-    plt.plot(observed_data['Social_Isolation_Score'], predicted_values, label='Predicted Linear Regression Model')
-    # plt.plot(social, y_low_c, label='Original Low Complexity Line', linestyle='--')
+    # let's plot now both
+    plt.plot(observed_data_high_complex.Social_Isolation_Score, pred_high_complex,
+             label='Complexity = 1', )
+    plt.plot(observed_data_low_complex.Social_Isolation_Score, pred_low_complex,
+             label='Complexity = 0', )
+    # plt.plot(social, y_low_c, label='pred_low_complex', linestyle='--')
     plt.xlabel('Social Isolation Score')
     plt.ylabel('Cognitive Change Score')
     plt.title('Predicted Linear Regression Line')
@@ -126,4 +103,3 @@ if __name__ == '__main__':
     plt.grid()
     plt.show()
 
-    #%%
